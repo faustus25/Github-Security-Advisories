@@ -27,4 +27,4 @@ for vuln in feed.entries:
 
 df = pd.DataFrame(new_items,columns=['Id','Published','Updated','Title','Category','CVE'])
 df.head()
-df.to_csv('/home/a627822/GithubSA.csv',index=False, encoding = 'utf-8')
+df.to_csv('/home/<<user>>/GithubSA.csv',index=False, encoding = 'utf-8')
